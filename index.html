@@ -1,20 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Profile card component</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-  
-<body>
-  
-</body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/css-reset-and-normalize/css/reset-and-normalize.min.css"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <section class="card">
+      <header class="card__header">
+        <img
+          src="./images/bg-pattern-card.svg"
+          alt=""
+          width="350"
+          height="140"
+          aria-hidden="true"
+          class="card__image"
+        />
+        <img
+          src="./images/image-victor.jpg"
+          alt="User avatar"
+          width="96"
+          height="96"
+          class="user__avatar"
+        />
+      </header>
+      <div class="card__body">
+        <div class="user">
+          <h1 class="user_name">Victor Crest</h1>
+          <span class="user__age" aria-label="User age">26</span>
+        </div>
+        <p class="user__country">London</p>
+      </div>
+      <footer class="card__footer">
+        <div class="card__statistics">
+          <strong class="statistics__count" aria-label="Followers counter"
+            >80K</strong
+          >
+          <span class="statistics__title" aria-hidden="true">Followers</span>
+        </div>
+        <div class="card__statistics">
+          <strong class="statistics__count" aria-label="Likers counter"
+            >803K</strong
+          >
+          <span class="statistics__title" aria-hidden="true">Likes</span>
+        </div>
+        <div class="card__statistics">
+          <strong class="statistics__count" aria-label="Number of photos"
+            >1.4K</strong
+          >
+          <span class="statistics__title" aria-hidden="true">Photos</span>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>
