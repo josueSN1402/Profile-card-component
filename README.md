@@ -18,7 +18,7 @@ I can see live on this [Vercel page](https://josuesn1402-profile-card-component.
 ## Built with
 
 <div align='center'>
-    <a href='https://vitejs.dev/'>
+    <a href='https://developer.mozilla.org/es/docs/Web/HTML'>
         <img src='https://skillicons.dev/icons?i=html' alt='HTML' />
     </a>
     <a href='https://sass-lang.com/'>
