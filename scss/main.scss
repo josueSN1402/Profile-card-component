@@ -26,6 +26,7 @@ html {
 
 body {
   font-family: var(--font-primary);
+  overflow: hidden !important;
 }
 
 .d-grd {
@@ -44,6 +45,47 @@ body {
 #primary-content {
   min-height: 100vh;
   place-items: center;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65vw;
+    height: 65vw;
+    background-size: contain;
+    z-index: -1;
+  }
+
+  &::before {
+    top: -35vw;
+    left: -20vw;
+    background-image: url('../images/bg-pattern-top.svg');
+  }
+
+  &::after {
+    bottom: -40vw;
+    right: -15vw;
+    background-image: url('../images/bg-pattern-bottom.svg');
+  }
+
+  @media screen and (max-width: 500px) {
+    &::before,
+    &::after {
+      width: 65vh;
+      height: 65vh;
+    }
+
+    &::before {
+      top: -30vh;
+      left: -35vh;
+    }
+
+    &::after {
+      bottom: -25vh;
+      right: -30vh;
+    }
+  }
 }
 
 .card {
