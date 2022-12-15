@@ -4,16 +4,18 @@ This is my solution to the [Frontend Mentor "Profile card component" challenge](
 
 I can see live on this [Vercel page](https://josuesn1402-profile-card-component.vercel.app).
 
-## Table of Contents
-
-- [Frontend Mentor - News homepage](#frontend-mentor---news-homepage)
-  - [Table of Contents](#table-of-contents)
+- [Frontend Mentor - Profile card component](#frontend-mentor---profile-card-component)
   - [Screenshots](#screenshots)
+  - [Details](#details)
   - [Built with](#built-with)
 
 ## Screenshots
 
-<!-- ![Challenge finished](design/.png) -->
+![Challenge finished](design/profile-card-component-finished.png)
+
+## Details
+
+- Built with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) extensions for VSCode
 
 ## Built with
 
